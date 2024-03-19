@@ -1,0 +1,14 @@
+debug/battlescene.o
+debug/card.o
+debug/choosescene.o
+debug/main.o
+debug/mainscene.o
+debug/minion.o
+debug/mypushbutton.o
+debug/qrc_res.o
+debug/moc_battlescene.o
+debug/moc_card.o
+debug/moc_choosescene.o
+debug/moc_mainscene.o
+debug/moc_minion.o
+debug/moc_mypushbutton.o

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/Home.png</file>
+        <file>Image/Icon.png</file>
+        <file>Image/start.png</file>
+        <file>Image/Choose.png</file>
+        <file>Image/Battle.png</file>
+        <file>Image/Loading.png</file>
+        <file>Image/Lose.png</file>
+        <file>Image/win.png</file>
+        <file>Image/Character.png</file>
+        <file>Image/begin1.png</file>
+        <file>Image/Character2.png</file>
+        <file>Image/Characterbtn.png</file>
+        <file>Image/begin2.png</file>
+    </qresource>
+    <qresource prefix="/card">
+        <file>Image/daoyou.png</file>
+        <file>Image/guiling.png</file>
+    </qresource>
+</RCC>

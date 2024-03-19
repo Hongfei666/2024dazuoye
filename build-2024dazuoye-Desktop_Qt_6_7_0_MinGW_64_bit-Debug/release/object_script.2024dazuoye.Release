@@ -1,0 +1,14 @@
+release/battlescene.o
+release/card.o
+release/choosescene.o
+release/main.o
+release/mainscene.o
+release/minion.o
+release/mypushbutton.o
+release/qrc_res.o
+release/moc_battlescene.o
+release/moc_card.o
+release/moc_choosescene.o
+release/moc_mainscene.o
+release/moc_minion.o
+release/moc_mypushbutton.o
