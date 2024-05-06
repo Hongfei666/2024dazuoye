@@ -25,7 +25,7 @@ MainScene::MainScene(QWidget *parent)
 
     //点击
     connect(startbtn,&MyPushButton::clicked,this,[=](){
-        //动画
+        //点击动画
         startbtn->zoom();
         //场景切换
         QTimer::singleShot(200,this,[=](){

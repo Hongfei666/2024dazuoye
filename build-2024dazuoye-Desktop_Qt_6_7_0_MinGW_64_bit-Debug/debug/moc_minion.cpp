@@ -57,7 +57,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMinionENDCLASS[] = {
 };
 
 Q_CONSTINIT const QMetaObject Minion::staticMetaObject = { {
-    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    QMetaObject::SuperData::link<Card::staticMetaObject>(),
     qt_meta_stringdata_CLASSMinionENDCLASS.offsetsAndSizes,
     qt_meta_data_CLASSMinionENDCLASS,
     qt_static_metacall,
@@ -87,12 +87,12 @@ void *Minion::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_CLASSMinionENDCLASS.stringdata0))
         return static_cast<void*>(this);
-    return QObject::qt_metacast(_clname);
+    return Card::qt_metacast(_clname);
 }
 
 int Minion::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QObject::qt_metacall(_c, _id, _a);
+    _id = Card::qt_metacall(_c, _id, _a);
     return _id;
 }
 QT_WARNING_POP

@@ -1,20 +1,21 @@
 #include "mypushbutton.h"
 #include <QPropertyAnimation>
 
-MyPushButton::MyPushButton(QString normalImg,QString pressImg)
+MyPushButton::MyPushButton(QString normalImg,QString pressImg,QString a)
 {
     //按钮图画
     this->normalImgPath=normalImg;
     this->pressImgPath=pressImg;
+    this->aPath=a;
     QPixmap pix;
-    pix.load(normalImg);
+    pix.load(normalImgPath);
     this->setFixedSize(pix.width(),pix.height());
     this->setStyleSheet("QPushButton{border:0px}");
     this->setIcon(pix);
     this->setIconSize(QSize(pix.width(),pix.height()));
 }
 
-//点击动画
+//点击动画(按动效果)
 void MyPushButton::zoom()
 {
     QPropertyAnimation *animation=new QPropertyAnimation(this,"geometry");
@@ -25,6 +26,7 @@ void MyPushButton::zoom()
     animation->start();
 }
 
+//点击事件
 void MyPushButton::mousePressEvent(QMouseEvent *e){
     if(this->pressImgPath!=""){
         QPixmap pix;
@@ -37,6 +39,7 @@ void MyPushButton::mousePressEvent(QMouseEvent *e){
     return QPushButton::mousePressEvent(e);
 }
 
+//释放事件
 void MyPushButton::mouseReleaseEvent(QMouseEvent *e){
     if(this->pressImgPath!=""){
         QPixmap pix;
@@ -48,4 +51,5 @@ void MyPushButton::mouseReleaseEvent(QMouseEvent *e){
     }
     return QPushButton::mouseReleaseEvent(e);
 }
+
 

@@ -1,17 +1,31 @@
 #ifndef MINION_H
 #define MINION_H
 
-#include <QObject>
+#include <QWidget>
+#include "card.h"
+#include "hero.h"
 
-class Minion : public QObject
+class Minion : public Card
 {
     Q_OBJECT
 public:
-    explicit Minion(QObject *parent = nullptr);
-    void Attack(Minion a,Minion b);
-    void Show(Minion a);
-    int gongjili;
-    int xueliang;
+    Minion();
+
+    //基础面板
+    int HP;
+    int MaxHP;
+    int ATK;
+
+    bool CanAttack = 1;
+    bool isqianxing = 0;
+
+    QString minion_pic;
+
+    template <typename T>
+    void Attack(T* target);
+
+    void die();
+    void drawminion();
 
 signals:
 };

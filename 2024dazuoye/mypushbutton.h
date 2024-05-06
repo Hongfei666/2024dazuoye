@@ -7,9 +7,10 @@ class MyPushButton : public QPushButton
 {
     Q_OBJECT
 public:
-    MyPushButton(QString normalImg,QString pressImg="");
+    MyPushButton(QString normalImg,QString pressImg="",QString a="");
     QString normalImgPath;
     QString pressImgPath;
+    QString aPath;
 
     void zoom();
 

@@ -3,6 +3,7 @@
 #include <QPainter>
 #include "mypushbutton.h"
 #include <QTimer>
+#include <QFrame>
 ChooseScene::ChooseScene(QWidget *parent)
     : QMainWindow{parent}
 {

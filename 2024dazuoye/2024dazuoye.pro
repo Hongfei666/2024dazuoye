@@ -12,20 +12,29 @@ SOURCES += \
     battlescene.cpp \
     card.cpp \
     choosescene.cpp \
+    game.cpp \
+    hero.cpp \
     main.cpp \
     mainscene.cpp \
     minion.cpp \
-    mypushbutton.cpp
+    mypushbutton.cpp \
+    spell.cpp \
+    weapon.cpp
 
 HEADERS += \
     battlescene.h \
     card.h \
     choosescene.h \
+    game.h \
+    hero.h \
     mainscene.h \
     minion.h \
-    mypushbutton.h
+    mypushbutton.h \
+    spell.h \
+    weapon.h
 
 FORMS += \
+    battlescene.ui \
     mainscene.ui
 
 # Default rules for deployment.
