@@ -416,6 +416,7 @@ release/moc_battlescene.cpp: ../2024dazuoye/battlescene.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -423,6 +424,8 @@ release/moc_battlescene.cpp: ../2024dazuoye/battlescene.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h \
 		../2024dazuoye/spell.h \
@@ -630,6 +633,7 @@ release/moc_card.cpp: ../2024dazuoye/card.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -637,6 +641,8 @@ release/moc_card.cpp: ../2024dazuoye/card.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		release/moc_predefs.h \
 		D:/QT/6.7.0/mingw_64/bin/moc.exe
 	D:\QT\6.7.0\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/A/Desktop/2024dazuoye/build-2024dazuoye-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/release/moc_predefs.h -ID:/QT/6.7.0/mingw_64/mkspecs/win32-g++ -IC:/Users/A/Desktop/2024dazuoye/2024dazuoye -ID:/QT/6.7.0/mingw_64/include -ID:/QT/6.7.0/mingw_64/include/QtWidgets -ID:/QT/6.7.0/mingw_64/include/QtGui -ID:/QT/6.7.0/mingw_64/include/QtCore -I. -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -ID:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\2024dazuoye\card.h -o release\moc_card.cpp
@@ -845,6 +851,7 @@ release/moc_choosescene.cpp: ../2024dazuoye/choosescene.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -852,6 +859,8 @@ release/moc_choosescene.cpp: ../2024dazuoye/choosescene.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h \
 		../2024dazuoye/spell.h \
@@ -1061,6 +1070,7 @@ release/moc_game.cpp: ../2024dazuoye/game.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -1068,6 +1078,8 @@ release/moc_game.cpp: ../2024dazuoye/game.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h \
 		../2024dazuoye/spell.h \
@@ -1274,6 +1286,7 @@ release/moc_hero.cpp: ../2024dazuoye/hero.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -1281,6 +1294,8 @@ release/moc_hero.cpp: ../2024dazuoye/hero.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		release/moc_predefs.h \
 		D:/QT/6.7.0/mingw_64/bin/moc.exe
 	D:\QT\6.7.0\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/A/Desktop/2024dazuoye/build-2024dazuoye-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/release/moc_predefs.h -ID:/QT/6.7.0/mingw_64/mkspecs/win32-g++ -IC:/Users/A/Desktop/2024dazuoye/2024dazuoye -ID:/QT/6.7.0/mingw_64/include -ID:/QT/6.7.0/mingw_64/include/QtWidgets -ID:/QT/6.7.0/mingw_64/include/QtGui -ID:/QT/6.7.0/mingw_64/include/QtCore -I. -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -ID:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\2024dazuoye\hero.h -o release\moc_hero.cpp
@@ -1490,6 +1505,7 @@ release/moc_mainscene.cpp: ../2024dazuoye/mainscene.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -1497,6 +1513,8 @@ release/moc_mainscene.cpp: ../2024dazuoye/mainscene.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h \
 		../2024dazuoye/spell.h \
@@ -1705,6 +1723,7 @@ release/moc_minion.cpp: ../2024dazuoye/minion.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -1712,6 +1731,8 @@ release/moc_minion.cpp: ../2024dazuoye/minion.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h \
 		release/moc_predefs.h \
@@ -2110,6 +2131,7 @@ release/moc_spell.cpp: ../2024dazuoye/spell.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -2117,6 +2139,8 @@ release/moc_spell.cpp: ../2024dazuoye/spell.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		release/moc_predefs.h \
 		D:/QT/6.7.0/mingw_64/bin/moc.exe
 	D:\QT\6.7.0\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/A/Desktop/2024dazuoye/build-2024dazuoye-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/release/moc_predefs.h -ID:/QT/6.7.0/mingw_64/mkspecs/win32-g++ -IC:/Users/A/Desktop/2024dazuoye/2024dazuoye -ID:/QT/6.7.0/mingw_64/include -ID:/QT/6.7.0/mingw_64/include/QtWidgets -ID:/QT/6.7.0/mingw_64/include/QtGui -ID:/QT/6.7.0/mingw_64/include/QtCore -I. -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -ID:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\2024dazuoye\spell.h -o release\moc_spell.cpp
@@ -2319,6 +2343,7 @@ release/moc_weapon.cpp: ../2024dazuoye/weapon.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -2326,6 +2351,8 @@ release/moc_weapon.cpp: ../2024dazuoye/weapon.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		release/moc_predefs.h \
 		D:/QT/6.7.0/mingw_64/bin/moc.exe
 	D:\QT\6.7.0\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/A/Desktop/2024dazuoye/build-2024dazuoye-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/release/moc_predefs.h -ID:/QT/6.7.0/mingw_64/mkspecs/win32-g++ -IC:/Users/A/Desktop/2024dazuoye/2024dazuoye -ID:/QT/6.7.0/mingw_64/include -ID:/QT/6.7.0/mingw_64/include/QtWidgets -ID:/QT/6.7.0/mingw_64/include/QtGui -ID:/QT/6.7.0/mingw_64/include/QtCore -I. -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -ID:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -ID:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\2024dazuoye\weapon.h -o release\moc_weapon.cpp
@@ -2557,6 +2584,7 @@ release/battlescene.o: ../2024dazuoye/battlescene.cpp ../2024dazuoye/battlescene
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -2564,6 +2592,8 @@ release/battlescene.o: ../2024dazuoye/battlescene.cpp ../2024dazuoye/battlescene
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h \
 		../2024dazuoye/spell.h \
@@ -2775,6 +2805,7 @@ release/card.o: ../2024dazuoye/card.cpp ../2024dazuoye/card.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -2782,6 +2813,8 @@ release/card.o: ../2024dazuoye/card.cpp ../2024dazuoye/card.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/battlescene.h \
 		../2024dazuoye/game.h \
 		../2024dazuoye/minion.h \
@@ -2998,6 +3031,7 @@ release/choosescene.o: ../2024dazuoye/choosescene.cpp ../2024dazuoye/choosescene
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -3005,6 +3039,8 @@ release/choosescene.o: ../2024dazuoye/choosescene.cpp ../2024dazuoye/choosescene
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h \
 		../2024dazuoye/spell.h \
@@ -3016,11 +3052,16 @@ release/choosescene.o: ../2024dazuoye/choosescene.cpp ../2024dazuoye/choosescene
 		D:/QT/6.7.0/mingw_64/include/QtCore/qtimer.h \
 		D:/QT/6.7.0/mingw_64/include/QtCore/qbasictimer.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QFrame \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qframe.h
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QFrame
 >>>>>>> b209066 (“提交代码”)
+=======
+		D:/QT/6.7.0/mingw_64/include/QtWidgets/QFrame \
+		D:/QT/6.7.0/mingw_64/include/QtWidgets/qframe.h
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\choosescene.o ..\2024dazuoye\choosescene.cpp
 
 release/game.o: ../2024dazuoye/game.cpp ../2024dazuoye/game.h \
@@ -3222,6 +3263,7 @@ release/game.o: ../2024dazuoye/game.cpp ../2024dazuoye/game.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -3229,6 +3271,8 @@ release/game.o: ../2024dazuoye/game.cpp ../2024dazuoye/game.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h \
 		../2024dazuoye/spell.h \
@@ -3433,6 +3477,7 @@ release/hero.o: ../2024dazuoye/hero.cpp ../2024dazuoye/hero.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpainter.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h
 =======
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
@@ -3442,6 +3487,9 @@ release/hero.o: ../2024dazuoye/hero.cpp ../2024dazuoye/hero.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h
 >>>>>>> b209066 (“提交代码”)
+=======
+		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\hero.o ..\2024dazuoye\hero.cpp
 
 release/main.o: ../2024dazuoye/main.cpp ../2024dazuoye/mainscene.h \
@@ -3649,6 +3697,7 @@ release/main.o: ../2024dazuoye/main.cpp ../2024dazuoye/mainscene.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -3656,6 +3705,8 @@ release/main.o: ../2024dazuoye/main.cpp ../2024dazuoye/mainscene.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h \
 		../2024dazuoye/spell.h \
@@ -3871,6 +3922,7 @@ release/mainscene.o: ../2024dazuoye/mainscene.cpp ../2024dazuoye/mainscene.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -3878,6 +3930,8 @@ release/mainscene.o: ../2024dazuoye/mainscene.cpp ../2024dazuoye/mainscene.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h \
 		../2024dazuoye/spell.h \
@@ -4097,6 +4151,7 @@ release/minion.o: ../2024dazuoye/minion.cpp ../2024dazuoye/minion.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		D:/QT/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
@@ -4104,6 +4159,8 @@ release/minion.o: ../2024dazuoye/minion.cpp ../2024dazuoye/minion.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 		../2024dazuoye/hero.h \
 		../2024dazuoye/weapon.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\minion.o ..\2024dazuoye\minion.cpp
@@ -4502,6 +4559,7 @@ release/spell.o: ../2024dazuoye/spell.cpp ../2024dazuoye/spell.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpainter.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h
 =======
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
@@ -4511,6 +4569,9 @@ release/spell.o: ../2024dazuoye/spell.cpp ../2024dazuoye/spell.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h
 >>>>>>> b209066 (“提交代码”)
+=======
+		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\spell.o ..\2024dazuoye\spell.cpp
 
 release/weapon.o: ../2024dazuoye/weapon.cpp ../2024dazuoye/weapon.h \
@@ -4710,6 +4771,7 @@ release/weapon.o: ../2024dazuoye/weapon.cpp ../2024dazuoye/weapon.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpainter.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextoption.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h
 =======
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
@@ -4719,6 +4781,9 @@ release/weapon.o: ../2024dazuoye/weapon.cpp ../2024dazuoye/weapon.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		D:/QT/6.7.0/mingw_64/include/QtGui/qtextdocument.h
 >>>>>>> b209066 (“提交代码”)
+=======
+		D:/QT/6.7.0/mingw_64/include/QtGui/qpen.h
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\weapon.o ..\2024dazuoye\weapon.cpp
 
 release/qrc_res.o: release/qrc_res.cpp 

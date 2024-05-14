@@ -80,9 +80,12 @@ public:
         draw();
         isneedtarget=1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         isjiaoyi=1;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     }
 };
 class chuidiao:public Spell
@@ -136,9 +139,12 @@ public:
         this->ATK=2;
         this->naijiudu=2;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         isjiaoyi=1;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         draw();
     }
 };

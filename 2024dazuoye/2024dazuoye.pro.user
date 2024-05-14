@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- Written by QtCreator 12.0.1, 2024-05-04T10:33:23. -->
 =======
 <!-- Written by QtCreator 12.0.1, 2024-05-14T17:28:44. -->
 >>>>>>> b209066 (“提交代码”)
+=======
+<!-- Written by QtCreator 12.0.1, 2024-05-04T10:33:23. -->
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>

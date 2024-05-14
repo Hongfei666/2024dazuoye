@@ -11,9 +11,12 @@
 #include <QRandomGenerator64>
 #include <QMouseEvent>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include <QLabel>
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 
 namespace Ui {
 class BattleScene;
@@ -40,6 +43,7 @@ public:
     int lianjinext=0;
     int next=0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     int next2=0;
     int lianjinext2=0;
@@ -47,6 +51,8 @@ public:
     //伤害
     int a;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 
     //是否打出
     bool isplay=0;
@@ -86,6 +92,7 @@ public:
     void turn_begin();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     //交易
     void jiaoyi(Card* thiscard);
@@ -94,6 +101,8 @@ public:
     void onShakeWindow();
 
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 private:
     Ui::BattleScene *ui;
 };

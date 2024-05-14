@@ -8,9 +8,12 @@
 
 #include "../../2024dazuoye/card.h"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include <QtGui/qtextcursor.h>
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>
@@ -40,11 +43,15 @@ constexpr auto qt_meta_stringdata_CLASSCardENDCLASS = QtMocHelpers::stringData(
     "Card",
     "play",
 <<<<<<< HEAD
+<<<<<<< HEAD
     ""
 =======
     "",
     "jiaoyi"
 >>>>>>> b209066 (“提交代码”)
+=======
+    ""
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -58,15 +65,22 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSCardENDCLASS[] = {
        0,       // classname
        0,    0, // classinfo
 <<<<<<< HEAD
+<<<<<<< HEAD
        1,   14, // methods
 =======
        2,   14, // methods
 >>>>>>> b209066 (“提交代码”)
+=======
+       1,   14, // methods
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
@@ -74,6 +88,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSCardENDCLASS[] = {
 
  // signals: parameters
     QMetaType::Void,
+<<<<<<< HEAD
 =======
        2,       // signalCount
 
@@ -85,6 +100,8 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSCardENDCLASS[] = {
     QMetaType::Void,
     QMetaType::Void,
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 
        0        // eod
 };
@@ -100,10 +117,13 @@ Q_CONSTINIT const QMetaObject Card::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<Card, std::true_type>,
         // method 'play'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'jiaoyi'
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -117,9 +137,12 @@ void Card::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         switch (_id) {
         case 0: _t->play(); break;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         case 1: _t->jiaoyi(); break;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -132,6 +155,7 @@ void Card::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         {
             using _t = void (Card::*)();
@@ -141,6 +165,8 @@ void Card::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
             }
         }
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     }
     (void)_a;
 }
@@ -165,6 +191,9 @@ int Card::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         if (_id < 1)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 1;
@@ -172,6 +201,7 @@ int Card::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 1)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 1;
+<<<<<<< HEAD
 =======
         if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
@@ -181,6 +211,8 @@ int Card::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 2;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     }
     return _id;
 }
@@ -191,6 +223,7 @@ void Card::play()
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 // SIGNAL 1
@@ -199,4 +232,6 @@ void Card::jiaoyi()
     QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 QT_WARNING_POP

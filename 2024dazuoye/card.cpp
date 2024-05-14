@@ -5,11 +5,14 @@
 Card::Card()
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     lab->setParent(this);
     lab->setFont(QFont("宋体",20));
     lab->setStyleSheet("color:white;");
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 }
 
 void Card::draw(){
@@ -39,12 +42,15 @@ void Card::mouseMoveEvent(QMouseEvent *ev){
 void Card::mouseReleaseEvent(QMouseEvent *ev){
     if(ischangdi==0){
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if(isjiaoyi==1&&(movep-press+pos).x()>1220){
             emit this->jiaoyi();
             return;
         }
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         if((movep-press+pos).y()>550){
             this->move(pos);
         }

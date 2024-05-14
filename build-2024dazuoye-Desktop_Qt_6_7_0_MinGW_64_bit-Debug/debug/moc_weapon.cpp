@@ -8,9 +8,12 @@
 
 #include "../../2024dazuoye/weapon.h"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include <QtGui/qtextcursor.h>
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>

@@ -4,9 +4,12 @@
 #include <QDebug>
 #include <QPainter>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include <QPropertyAnimation>
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 
 BattleScene::BattleScene(QWidget *parent)
     : QWidget(parent)
@@ -80,6 +83,7 @@ BattleScene::BattleScene(QWidget *parent)
     draw();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     QLabel *damage=new QLabel;
     damage->setParent(this);
@@ -89,6 +93,8 @@ BattleScene::BattleScene(QWidget *parent)
     damage->setFont(QFont("宋体",20));
     damage->setStyleSheet("color:white;");
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 
     //实现结束回合按钮功能
     connect(endbtn,&QPushButton::clicked,mygame,[=](){
@@ -151,6 +157,9 @@ BattleScene::BattleScene(QWidget *parent)
         play(sjdf1);
         spellnext=1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         for(int i=0;i<Hand.size();i++){
             if(Hand.at(i)->isspell){
                 Hand.at(i)->mana-=2;
@@ -159,14 +168,20 @@ BattleScene::BattleScene(QWidget *parent)
                 }
             }
         }
+<<<<<<< HEAD
 =======
         HandShow();
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     });
     connect(sjdf2,&Card::play,this,[=](){
         play(sjdf2);
         spellnext=1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         for(int i=0;i<Hand.size();i++){
             if(Hand.at(i)->isspell==1){
                 Hand.at(i)->mana-=2;
@@ -175,27 +190,37 @@ BattleScene::BattleScene(QWidget *parent)
                 }
             }
         }
+<<<<<<< HEAD
 =======
         HandShow();
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     });
 
     //暗影步
     connect(ayb1,&Card::play,this,[=](){
         play(ayb1);
 <<<<<<< HEAD
+<<<<<<< HEAD
         int j;
 =======
         int j=0;
 >>>>>>> b209066 (“提交代码”)
+=======
+        int j;
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         if(isplay){
             for(int i=0;i<changdi.size();i++){
                 if(changdi.at(i)->ischoosed){
                     j=i;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     break;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                 }
             }
             changdi.at(j)->mana-=2;
@@ -217,9 +242,12 @@ BattleScene::BattleScene(QWidget *parent)
                 if(changdi.at(i)->ischoosed){
                     j=i;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     break;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                 }
             }
             changdi.at(j)->mana-=2;
@@ -236,10 +264,14 @@ BattleScene::BattleScene(QWidget *parent)
 
     //鲨鱼之灵
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     connect(sy,&Card::play,this,[=](){
         play(sy);
         if(isplay){
             changdi.append(sy);
+<<<<<<< HEAD
 =======
     connect(sy,&shayu::play,this,[=](){
         play(sy);
@@ -248,6 +280,8 @@ BattleScene::BattleScene(QWidget *parent)
             sy->originmana=4;
             sy->mana=4;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
             changdiShow();
         }
     });
@@ -261,6 +295,7 @@ BattleScene::BattleScene(QWidget *parent)
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     connect(yx1,&Card::jiaoyi,this,[=](){
         jiaoyi(yx1);
@@ -270,6 +305,8 @@ BattleScene::BattleScene(QWidget *parent)
     });
 
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     //垂钓时光
     connect(cd1,&Card::play,this,[=](){
         play(cd1);
@@ -308,6 +345,9 @@ BattleScene::BattleScene(QWidget *parent)
 
     //弯刀
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     connect(wd1,&Card::play,this,[=](){
         play(wd1);
     });
@@ -353,6 +393,7 @@ BattleScene::BattleScene(QWidget *parent)
         int j;
         if(isplay){
             changdi.append(tw);
+<<<<<<< HEAD
 =======
     connect(wd1,&wandao::play,this,[=](){
         play(wd1);
@@ -396,6 +437,8 @@ BattleScene::BattleScene(QWidget *parent)
             tw->originmana=2;
             tw->mana=2;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
             changdiShow();
             if(changdi.size()>1){
                 for(int i=0;i<changdi.size();i++){
@@ -404,12 +447,17 @@ BattleScene::BattleScene(QWidget *parent)
                     }
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                 changdi.at(j)->mana-=2;
                 changdi.at(j)->originmana-=2;
 =======
                 changdi.at(j)->mana=1;
                 changdi.at(j)->originmana=1;
 >>>>>>> b209066 (“提交代码”)
+=======
+                changdi.at(j)->mana-=2;
+                changdi.at(j)->originmana-=2;
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                 changdi.at(j)->ischangdi=0;
                 Hand.append(changdi.at(j));
                 changdi.at(j)->raise();
@@ -480,6 +528,9 @@ BattleScene::BattleScene(QWidget *parent)
                         if(isplay){
                             changdi.append(lq1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                             changdiShow();
                             if(usedcard){
                                 if(sy->ischangdi==1){
@@ -504,6 +555,7 @@ BattleScene::BattleScene(QWidget *parent)
                                 }
                             }
                             lianjinext=1;
+<<<<<<< HEAD
 =======
                             lq1->originmana=2;
                             lq1->mana=2;
@@ -517,6 +569,8 @@ BattleScene::BattleScene(QWidget *parent)
                                 }
                             }
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                         }
                     });
                 }
@@ -531,10 +585,13 @@ BattleScene::BattleScene(QWidget *parent)
                     connect(sy1,&Card::play,this,[=](){
                         play(sy1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         sy1->mana=4;
                         sy1->originmana=4;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                         if(isplay){
                             changdi.append(sy1);
                             changdiShow();
@@ -554,6 +611,9 @@ BattleScene::BattleScene(QWidget *parent)
                         if(isplay){
                             changdi.append(dy1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                             changdiShow();
                             if(usedcard){
                                 if(sy->ischangdi=1){
@@ -574,6 +634,7 @@ BattleScene::BattleScene(QWidget *parent)
                                 }
                             }
                             next=2;
+<<<<<<< HEAD
 =======
                             dy1->originmana=4;
                             dy1->mana=4;
@@ -588,6 +649,8 @@ BattleScene::BattleScene(QWidget *parent)
                             }
                             HandShow();
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                         }
                     });
                 }
@@ -602,6 +665,7 @@ BattleScene::BattleScene(QWidget *parent)
                     connect(tw1,&Card::play,this,[=](){
                         play(tw1);
                         if(isplay){
+<<<<<<< HEAD
 <<<<<<< HEAD
                             changdi.append(tw1);
                             changdiShow();
@@ -628,6 +692,10 @@ BattleScene::BattleScene(QWidget *parent)
                                 HandShow();
                             }
 >>>>>>> b209066 (“提交代码”)
+=======
+                            changdi.append(tw1);
+                            changdiShow();
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                         }
                     });
                 }
@@ -643,6 +711,7 @@ BattleScene::BattleScene(QWidget *parent)
                         play(gl3);
                         if(isplay){
 <<<<<<< HEAD
+<<<<<<< HEAD
                             changdi.append(gl3);
                             changdiShow();
                             qDebug()<<usedcard;
@@ -655,6 +724,11 @@ BattleScene::BattleScene(QWidget *parent)
                             changdiShow();
                             onShakeWindow();
 >>>>>>> b209066 (“提交代码”)
+=======
+                            changdi.append(gl3);
+                            changdiShow();
+                            qDebug()<<usedcard;
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                         }
                     });
                 }
@@ -670,6 +744,7 @@ BattleScene::BattleScene(QWidget *parent)
                         play(gl4);
                         if(isplay){
 <<<<<<< HEAD
+<<<<<<< HEAD
                             changdi.append(gl4);
                             changdiShow();
                             qDebug()<<usedcard;
@@ -682,6 +757,11 @@ BattleScene::BattleScene(QWidget *parent)
                             changdiShow();
                             onShakeWindow();
 >>>>>>> b209066 (“提交代码”)
+=======
+                            changdi.append(gl4);
+                            changdiShow();
+                            qDebug()<<usedcard;
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                         }
                     });
                 }
@@ -691,16 +771,23 @@ BattleScene::BattleScene(QWidget *parent)
 
     //刀油
 <<<<<<< HEAD
+<<<<<<< HEAD
     connect(dy,&Card::play,this,[=](){
 =======
     connect(dy,&daoyou::play,this,[=](){
 >>>>>>> b209066 (“提交代码”)
+=======
+    connect(dy,&Card::play,this,[=](){
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         play(dy);
         if(isplay){
             changdi.append(dy);
             changdiShow();
             if(usedcard){
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
                 if(sy->ischangdi=1){
                     for(int i=0;i<Hand.size();i++){
                         Hand.at(i)->mana-=6;
@@ -720,6 +807,7 @@ BattleScene::BattleScene(QWidget *parent)
             }
             next=2;
         }
+<<<<<<< HEAD
 =======
                 if(sy->ischangdi==1){
                     next2=2;
@@ -731,6 +819,8 @@ BattleScene::BattleScene(QWidget *parent)
         }
         HandShow();
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     });
 
     //斗篷
@@ -751,6 +841,9 @@ BattleScene::BattleScene(QWidget *parent)
 
     //鬼灵
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     connect(gl1,&Card::play,this,[=](){
         play(gl1);
         if(isplay){
@@ -768,6 +861,7 @@ BattleScene::BattleScene(QWidget *parent)
         }
     });
 
+<<<<<<< HEAD
 =======
     connect(gl1,&guiling::play,this,[=](){
         play(gl1);
@@ -790,6 +884,8 @@ BattleScene::BattleScene(QWidget *parent)
         }
     });
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 }
 
 //绘制场景，法力水晶
@@ -892,6 +988,7 @@ void BattleScene::HandShow(){
         Hand.at(9)->pos=p9;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     if(spellnext){
         for(int i=0;i<Hand.size();i++){
@@ -940,14 +1037,19 @@ void BattleScene::HandShow(){
         }
     }
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     for(int i=0;i<Hand.size();i++){
         Hand.at(i)->draw();
         Hand.at(i)->move(Hand.at(i)->pos);
         Hand.at(i)->show();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Hand.at(i)->lab->setText(Hand.at(i)->curmana[Hand.at(i)->mana]);
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     }
 }
 
@@ -1039,9 +1141,13 @@ void BattleScene::changdiShow(){
 //回合开始
 void BattleScene::turn_begin(){
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b209066 (“提交代码”)
+=======
+
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
     //抽牌
     draw();
 
@@ -1062,6 +1168,7 @@ void BattleScene::turn_begin(){
 void BattleScene::turn_end(){
     next=0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     spellnext=0;
     lianjinext=0;
 =======
@@ -1071,6 +1178,10 @@ void BattleScene::turn_end(){
     lianjinext2=0;
     HandShow();
 >>>>>>> b209066 (“提交代码”)
+=======
+    spellnext=0;
+    lianjinext=0;
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 }
 
 //抽牌
@@ -1079,9 +1190,12 @@ void BattleScene::draw(){
         int i=QRandomGenerator64::global()->bounded(Library.size()-1);
         Library.at(i)->setParent(this);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Library.at(i)->raise();
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         if(Hand.size()<10){
             Hand.append(Library.at(i));
             HandShow();
@@ -1121,10 +1235,14 @@ void BattleScene::drawspell(){
         Library.removeAt(Spell[i]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     else if(Library.size()==1){
 =======
     else if(t==1){
 >>>>>>> b209066 (“提交代码”)
+=======
+    else if(Library.size()==1){
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         Library.at(Spell[1])->setParent(this);
         if(Hand.size()<10){
             Hand.append(Library.at(Spell[1]));
@@ -1153,10 +1271,14 @@ void BattleScene::drawminion(){
         Library.removeAt(Minion[i]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     else if(Library.size()==1){
 =======
     else if(t==1){
 >>>>>>> b209066 (“提交代码”)
+=======
+    else if(Library.size()==1){
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         Library.at(Minion[1])->setParent(this);
         if(Hand.size()<10){
             Hand.append(Library.at(Minion[1]));
@@ -1167,10 +1289,14 @@ void BattleScene::drawminion(){
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //打牌UI
 =======
 //打牌
 >>>>>>> b209066 (“提交代码”)
+=======
+//打牌UI
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 void BattleScene::play(Card* thiscard){
     if((myfalizhi<thiscard->mana)||(thiscard->isneedtarget&&changdi.isEmpty()&&thiscard->isspell||(thiscard->isminion&&changdi.size()==7))){
         isplay=0;
@@ -1203,6 +1329,7 @@ void BattleScene::play(Card* thiscard){
             lianjinext--;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if(lianjinext2&&thiscard->islianji){
             for(int i=0;i<Hand.size();i++){
@@ -1213,6 +1340,8 @@ void BattleScene::play(Card* thiscard){
             lianjinext2--;
         }
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         if(next==2){
             next--;
         }
@@ -1222,6 +1351,7 @@ void BattleScene::play(Card* thiscard){
             }
             next--;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         if(next2==2){
@@ -1234,12 +1364,15 @@ void BattleScene::play(Card* thiscard){
             next2--;
         }
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
         myfalizhi-=thiscard->mana;
         thiscard->hide();
         update();
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 //交易
@@ -1278,6 +1411,8 @@ void BattleScene::onShakeWindow()
 }
 
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 BattleScene::~BattleScene()
 {
     delete ui;

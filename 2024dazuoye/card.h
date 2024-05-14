@@ -6,9 +6,12 @@
 #include <QPixmap>
 #include <QPainter>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #include <QLabel>
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 
 class Card : public QPushButton
 {
@@ -20,10 +23,13 @@ public:
     QString card_pic;
     QPixmap pix;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     QString curmana[8]={"0","1","2","3","4","5","6"};
     QLabel *lab=new QLabel;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 
     //法力值
     int mana;
@@ -38,9 +44,12 @@ public:
     bool islianji=0;
     bool ischoosed=0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     bool isjiaoyi=0;
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 
     //实现卡牌拖动
     QPoint pos,press,movep;
@@ -57,11 +66,14 @@ signals:
     //打出信号
     void play();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     //交易信号
     void jiaoyi();
 >>>>>>> b209066 (“提交代码”)
+=======
+>>>>>>> 397f650ed73e30b7b8ee7a452271c401c4e7b5f6
 };
 
 #endif // CARD_H
